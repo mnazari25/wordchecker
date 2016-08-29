@@ -13,6 +13,7 @@
 		AF62B8A41D678B9000854572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF62B8A21D678B9000854572 /* Main.storyboard */; };
 		AF62B8A61D678B9000854572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF62B8A51D678B9000854572 /* Assets.xcassets */; };
 		AF62B8A91D678B9000854572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF62B8A71D678B9000854572 /* LaunchScreen.storyboard */; };
+		AFE6EB011D6EA79600480CA4 /* Totem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE6EB001D6EA79600480CA4 /* Totem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AF62B8A51D678B9000854572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF62B8A81D678B9000854572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF62B8AA1D678B9000854572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFE6EB001D6EA79600480CA4 /* Totem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Totem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AF62B8A51D678B9000854572 /* Assets.xcassets */,
 				AF62B8A71D678B9000854572 /* LaunchScreen.storyboard */,
 				AF62B8AA1D678B9000854572 /* Info.plist */,
+				AFE6EB001D6EA79600480CA4 /* Totem.swift */,
 			);
 			path = "Word Checker";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF62B8A11D678B9000854572 /* SecondViewController.swift in Sources */,
+				AFE6EB011D6EA79600480CA4 /* Totem.swift in Sources */,
 				AF62B89D1D678B9000854572 /* AppDelegate.swift in Sources */,
 				AF62B89F1D678B9000854572 /* FirstViewController.swift in Sources */,
 			);
@@ -292,6 +296,7 @@
 				AF62B8AF1D678B9000854572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
